@@ -1,0 +1,77 @@
+#root {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.render-steps {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input-date, .input-steps {
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.steps{
+  margin-left: 15px;
+}
+
+.btn {
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.render-steps {
+  margin-top: 40px;
+}
+
+.steps-info {
+  margin-top: 20px;
+  padding:10px;
+  /* border: 1px solid gray; */
+  border-radius: 7px;
+}
+
+.step-info {
+  display: flex;
+  margin-top: 10px;
+}
+
+.render-info {
+  display: flex;
+}
+
+.render-descr {
+  margin-left: 95px;
+}
+
+.render-descr:first-child {
+  margin-left: 0;
+}
+
+.steps-distance {
+  margin-left: 65px;
+}
+
+.delete {
+  margin-left: 150px;
+  cursor: pointer;
+}
+
