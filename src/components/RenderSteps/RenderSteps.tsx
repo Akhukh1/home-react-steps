@@ -26,8 +26,8 @@ export default function RenderSteps(props) {
       </div>
       <div className = "steps-info" style = {{border: border}}>
         {arrDate.map(step => {
-          return (
-              <Step step = {step} delSteps = { delSteps }/>
+          return (            
+              <Step step = {step} delSteps = { delSteps } key = { step.date }/>
           )
         })}
       </div>
